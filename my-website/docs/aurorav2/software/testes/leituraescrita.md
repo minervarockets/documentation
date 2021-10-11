@@ -4,7 +4,7 @@ title: Teste de Leitura e Escrita do SD
 sidebar_label: Leitura e Escrita
 ---
 
-*Ver [glossário](/avionicsdocumentation/docs/glossario/testes/leituraescrita) para mais informações sobre o teste*
+*Ver [glossário](/documentation/docs/glossario/testes/leituraescrita) para mais informações sobre o teste*
 
 O teste de leitura e escrita foi feito usando a biblioteca *SdFat*. São escritas 20000 linhas de dados de 2 bytes (short), 4 bytes (int) e float. 
 

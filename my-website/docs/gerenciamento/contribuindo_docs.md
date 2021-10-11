@@ -10,7 +10,7 @@ Uma documentação de qualidade é essencial para que tenhamos o projeto bem org
 O objetivo desta página é explicar como que um membro da aviônica pode colaborar com a documentação.
 
 ## Repositório e permissões
-A documentação está armazenada neste repositório do GitHub: https://github.com/gabrielaleks/avionicsdocumentation. O gerente possui permissões totais para commitar e fazer o deploy. Os membros, por outro lado, devem fazer um pull request solicitando que sua colaboração com a documentação seja de fato implementada. Veremos o passo-a-passo de como se fazer isso.
+A documentação está armazenada neste repositório do GitHub: https://github.com/minervarockets/documentation. O gerente possui permissões totais para commitar e fazer o deploy. Os membros, por outro lado, devem fazer um pull request solicitando que sua colaboração com a documentação seja de fato implementada. Veremos o passo-a-passo de como se fazer isso.
 
 ## Mudando a partir da interface
 ### Fazendo o fork

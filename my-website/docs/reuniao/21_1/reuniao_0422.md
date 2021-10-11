@@ -40,13 +40,13 @@ sidebar_label: 22/04/21
 ### Daniel
 - Escrever PTR
 - Atividade presencial na sexta (fresar placas e validar circuito da rec)
-- Mudar formatação básica do c++ no vs code ([referência](https://gabrielaleks.github.io/avionicsdocumentation/docs/outros/dicasgerais#extens%C3%B5es))
+- Mudar formatação básica do c++ no vs code ([referência](https://minervarockets.github.io/documentation/docs/outros/dicasgerais#extens%C3%B5es))
 - Continuar .h e .cpp do Ina
 
 ### Fábio
 - Escrever PTR
 - Terminar, no sábado após reunião com a sats, tarefas de documentação.
-- Mudar formatação básica do c++ no vs code ([referência](https://gabrielaleks.github.io/avionicsdocumentation/docs/outros/dicasgerais#extens%C3%B5es))
+- Mudar formatação básica do c++ no vs code ([referência](https://minervarockets.github.io/documentation/docs/outros/dicasgerais#extens%C3%B5es))
 - Continuar .h e .cpp do Imu
 
 ### Gabriel

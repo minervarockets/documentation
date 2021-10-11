@@ -106,7 +106,7 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
-                    editUrl: 'https://github.com/gabrielaleks/avionicsdocumentation/edit/master/my-website/',
+                    editUrl: 'https://github.com/minervarockets/documentation/edit/master/my-website/',
                 },
                 blog: {
                     showReadingTime: true,

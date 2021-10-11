@@ -28,14 +28,14 @@ sidebar_label: 05/05/21
 
 ## Novas Tarefas
 ### Daniel
-- Ler sobre [protocolo de comunicação](https://gabrielaleks.github.io/avionicsdocumentation/docs/reuniao/21/0503i/).
+- Ler sobre [protocolo de comunicação](https://minervarockets.github.io/documentation/docs/reuniao/21/0503i/).
 - Finalizar .h e .cpp do Imu.
 - Ir ao lab soldar componentes (quando possível).
 
 ### Fábio
 - Fazer cálculos pro PTR.
 - Aprimorar tabela de sensores no PTR. 
-- Ler sobre [protocolo de comunicação](https://gabrielaleks.github.io/avionicsdocumentation/docs/reuniao/21/0503i/)
+- Ler sobre [protocolo de comunicação](https://minervarockets.github.io/documentation/docs/reuniao/21/0503i/)
 - Colocar feedback da revisão cruzada no [doc](https://docs.google.com/document/d/1120T_x_scTTLjc2Kdi_0Co5W1KeuWTLnup7tgZw74UU/edit).
 - Continuar integração com a sats: flat cables, antenas e câmeras.
 - Finalizar .h e .cpp do Imu.

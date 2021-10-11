@@ -1,6 +1,6 @@
 # 🚀 **Bem vindo à documentação da Aviônica** 🚀
 
-Acesse o site aqui: [gabrielaleks.github.io/avionicsdocumentation](https://gabrielaleks.github.io/avionicsdocumentation/)
+Acesse o site aqui: [gabrielaleks.github.io/avionicsdocumentation](https://minervarockets.github.io/documentation/)
 
 ⚡ Este site vem sendo continuamente melhorado pelo time da aviônica desde o ínicio de 2021!
 

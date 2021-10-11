@@ -38,7 +38,7 @@ sidebar_label: 07/04/21
     - Incluir testes já feitos
     - Adicionar 40 pin e mini-lock; adicionar capacitores do LM, adicionar conector do mini din (air brake), adicionar mini-lock onde falta. *Obs: ver PDR para nova versão das placas*
 - Ir na salinha 13h sexta pra testar rec/recb e pegar código do macete da fresadora
-- Definir o conector do prato da recuperação ([referência](https://gabrielaleks.github.io/avionicsdocumentation/docs/reuniao/21/0401i))
+- Definir o conector do prato da recuperação ([referência](https://minervarockets.github.io/documentation/docs/reuniao/21/0401i))
 - Atualizar documento de apresentação da GFRJ:
     - PSCS Valvulas
     - PSCS Sensores

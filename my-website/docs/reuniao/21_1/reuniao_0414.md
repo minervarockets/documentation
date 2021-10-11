@@ -43,7 +43,7 @@ sidebar_label: 14/04/21
 - Fazer .h e .cpp do Ina
 - Terminar 'conceitos' de teste de telemetria e teste do barômetro
 - Terminar de preencher PBS
-    - Usar [nota fiscal](https://drive.google.com/file/d/1OZPGnC0hekDqE63xLDzXUyq-syCRchcU/view) e [inventário](https://gabrielaleks.github.io/avionicsdocumentation/docs/outros/inventario/)
+    - Usar [nota fiscal](https://drive.google.com/file/d/1OZPGnC0hekDqE63xLDzXUyq-syCRchcU/view) e [inventário](https://minervarockets.github.io/documentation/docs/outros/inventario/)
 
 ### Fábio
 - Fazer versão final da integração com os arquivos .step novos

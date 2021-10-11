@@ -30,9 +30,9 @@ sidebar_label: 02/06/21
 
 - O que atualizar na apresentação:
     - Depois de conversar com prop, inserir informações sobre os novos componentes.
-    - Fazer slide indicando taxas de leitura/salvamento e envio de dados (depois do slide de Manipulação de Dados). [Referência](https://gabrielaleks.github.io/avionicsdocumentation/docs/reuniao/21/0503i)
+    - Fazer slide indicando taxas de leitura/salvamento e envio de dados (depois do slide de Manipulação de Dados). [Referência](https://minervarockets.github.io/documentation/docs/reuniao/21/0503i)
     - Fazer, depois dos slides de CDHS e EPS, slides indicando os componentes de cada uma dessas placas
-    - Fazer slide apresentando brevemente o protocolo de comunicação que vamos usar ([referência](https://gabrielaleks.github.io/avionicsdocumentation/docs/reuniao/21/0503i)). Colocar depois do slide do CDHS
+    - Fazer slide apresentando brevemente o protocolo de comunicação que vamos usar ([referência](https://minervarockets.github.io/documentation/docs/reuniao/21/0503i)). Colocar depois do slide do CDHS
     - Após slide da Checkpoint Board adicionar informações técnicas.
 
 ### Gabriel
