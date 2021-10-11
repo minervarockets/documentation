@@ -89,7 +89,7 @@ module.exports = {
                 {
                     Protocolos: ['glossario/protocolos/i2c', 'glossario/protocolos/spi', 'glossario/protocolos/uart']
                 },
-                'glossario/diagramadeclasses', 'glossario/git', 'glossario/maquinadeestados'
+                'glossario/diagramadeclasses', 'glossario/git', 'glossario/maquinadeestados', 'glossario/bms'
             ],
         },
         {
