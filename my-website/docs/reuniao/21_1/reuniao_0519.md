@@ -19,7 +19,7 @@ sidebar_label: 19/05/21
 - Problemas com a internet impossibilitaram a realização da reunião na semana anterior.
 - Adicionou diagrama de classes, barramento e a tabela de consumo no apêndice do PTR.
 - Fez cronograma de software.
-- Problema na linha de SPI foi [identificado e contornado](/avionicsdocumentation/docs/aurorav2/software/testes/leituraescrita).
+- Problema na linha de SPI foi [identificado e contornado](/documentation/docs/aurorav2/software/testes/leituraescrita).
 - Finalização da revisão cruzada.
 
 ## Novas Tarefas

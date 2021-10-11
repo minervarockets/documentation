@@ -4,7 +4,7 @@ title: Reunião Inter-Subsistema 03/05/21
 sidebar_label: 03/05/21 (INS)
 ---
 
-*Mais detalhes em Aurora v2/Software/[Protocolo de Comunicação](/avionicsdocumentation/docs/aurorav2/software/protocolodecomm)*
+*Mais detalhes em Aurora v2/Software/[Protocolo de Comunicação](/documentation/docs/aurorav2/software/protocolodecomm)*
 
 Nessa reunião o VDL (Instrumentação) apresentou o protocolo de comunicação que a Instrumentação vem desenvolvendo. Foi discutido como que isso se traduz no código e quais são os próximos passos a se tomar pelos dois subsistemas. 
 
