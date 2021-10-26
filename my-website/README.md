@@ -1,7 +1,7 @@
 # Deploy
 
 ```console
-GIT_USER=gabrielaleks USE_SSH=true yarn deploy
+GIT_USER=github_username USE_SSH=true yarn deploy
 ```
 
 Faz o deploy no github pages
