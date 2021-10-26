@@ -5,16 +5,13 @@ sidebar_label: BMS
 ---
 *Escrito por Carolina Branquinho* 
 
-Referências: 
-[[1]](http://repositorium.sdum.uminho.pt/bitstream/1822398471Disserta%c3%a7%c3%a3o_Bruno%20Duarte_2013.pdf); [[2]](https://repositorio.ufsc.br/bitstream/handle/123456789/222222/TCC%20Vilson%20Garcia.pdf?sequence=3&isAllowed=y); [[3]](http://tede.unioeste.br/handle/tede/5113#preview-link0); [[4]](https://www.sta-eletronica.com.br/artigos/baterias-em-geral/packs-de-baterias/protecao-de-packs-de-baterias-placas-bmspcm-e-balanceamento)
-
 ## Associação de Baterias 
 Em diversas aplicações é útil fazer associações de baterias quer em paralelo para aumentar a capacidade, quer em série para aumentar a tensão em seus terminais. Durante o carregamento, se uma célula atingir sua carga completa antes que as outras, sofrerá sobrecarga enquanto as demais células atingem sua carga total. Da mesma forma, a célula com menor capacidade irá descarregar antes das outras. 
 
 Para reduzir esse efeito e prolongar a vida útil da bateria, deve ser desenvolvido um mecanismo eficaz de balanceamento de células que mantenha os níveis de capacidade das células individuais em uma bateria o mais próximo possível. 
 
 ## O que é o BMS?
-![BMS1](img/docs/glossario/BMS/BMS1.JPG)
+![BMS1](/img/docs/glossario/BMS/BMS1.JPG)
 
 [Exemplo de um módulo comercial 3s (3 células em série) de BMS](https://www.lojadarobotica.com.br/placa-de-protecao-para-bateria-3s-20a-18650-bms?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gclid=Cj0KCQjw5JSLBhCxARIsAHgO2SdSJh1Xfgiisi42U23zpf_a8J7SernpVDGMAT6KXLcjCDBYvvWQz4IaAonSEALw_wcB)  
 
@@ -33,7 +30,7 @@ __Outputs:__ estado de carga(State of Charge), estado de saúde (State of Health
 - As células perdem naturalmente o seu balanceamento (ou seja, terão estados diferentes de carga e tensão) após alguns ciclos de carga.
 - Realizando-se ensaios em diferentes packs de baterias Li-Ion com diferentes níveis de desbalanceamento de células conclui-se que quanto maior for o desbalanceamento das células num pack, maior será a perda de capacidade após alguns ciclos de carga e descarga.
 
-![BMS6](img/docs/glossario/BMS/BMS6.JPG)
+![BMS6](/img/docs/glossario/BMS/BMS6.JPG)
 
 - Se durante o descarregamento uma bateria atingir níveis de tensão abaixo da tensão de corte mínima, isso pode resultar em danos a bateria e diminuição de sua vida útil.Sempre que a primeira célula atinge a tensão mínima de corte, a placa BMS vai cortar o circuito de descarga e interromper a descarga da bateria. Isto protege as células da bateria de serem descarregadas além do mínimo o que produziria danos irreparáveis. A desconexão na descarga impede que as células mais fortes empurrem a célula mais fraca para polaridade inversa.
 - O circuito de proteção também protege a bateria de corrente de carga excessiva.Passar qualquer quantidade de tempo acima da tensão máxima causará danos irreparáveis para as células
@@ -73,7 +70,7 @@ Possíveis aproximações para determinação do Estado de Carga:
 - Controladores de segurança/carga/descarga (Circuito de Interrupção e Balanceamento de cargas com relés)
 - Interface do usuário
 
-![BMS2](img/docs/glossario/BMS/BMS2.JPG)
+![BMS2](/img/docs/glossario/BMS/BMS2.JPG)
 
 Exemplo retirado da referência [[3]](http://tede.unioeste.br/handle/tede/5113#preview-link0).
 
@@ -88,7 +85,7 @@ Os métodos dissipativos possuem baixa eficiência, pois utilizam-se elementos r
 O método de balanceamento de cargas por chaveamento consiste em fazer uso de FET'sou relés como se fossem chaves liga-desliga, que podem desviar parte da corrente de cada célula, tanto na carga como na descarga.
 
 ## Método de Balancemento de Cargas com o uso de relés
-![BMS3](img/docs/glossario/BMS/BMS3.JPG)
+![BMS3](/img/docs/glossario/BMS/BMS3.JPG)
 
 Exemplo retirado da referência [[3]](http://tede.unioeste.br/handle/tede/5113#preview-link0).
 
@@ -102,7 +99,7 @@ Resumo:
 - __Em caso de anormalidade no sistema:__ relés C+ e C- abertos
 
 ## Circuito na Placa de Relés
-![BMS4](img/docs/glossario/BMS/BMS4.JPG)
+![BMS4](/img/docs/glossario/BMS/BMS4.JPG)
 
 Exemplo retirado da referência [[3]](http://tede.unioeste.br/handle/tede/5113#preview-link0).
 
@@ -111,6 +108,12 @@ O circuito de controle responsável pelo acionamento do relé é composto por um
 ## Desenvolvimento do Software
 Para o BMS é preciso desenvolver um software que monitore constantemente o Estado de Carga e Estado de Saúde do sistema e parâmetros limites (como tensão mínima, tensão máxima e temperatura). Esse circuito será responsável por garantir o bom funcionamento do BMS, agindo no balancemaneto de cargas e evitando o funcionamento do sistema em condições fora das ideais. Abaixo encontra-se um exemplo de algoritmo para o software do BMS.  
 
-![BMS5](img/docs/glossario/BMS/BMS5.JPG)
+![BMS5](/img/docs/glossario/BMS/BMS5.JPG)
 
 Exemplo retirado da referência [[3]](http://tede.unioeste.br/handle/tede/5113#preview-link0).
+
+## Referências
+1. [Dissertação Bruno Duarte](http://repositorium.sdum.uminho.pt/bitstream/1822398471Disserta%c3%a7%c3%a3o_Bruno%20Duarte_2013.pdf)
+2. [Dissertação de Vilson Garcia (UFSC)](https://repositorio.ufsc.br/bitstream/handle/123456789/222222/TCC%20Vilson%20Garcia.pdf?sequence=3&isAllowed=y)
+3. [Dissertação de Giovane Sylvestrin (Unioeste)](http://tede.unioeste.br/handle/tede/5113#preview-link0)
+4. [Proteção de packs de baterias](https://www.sta-eletronica.com.br/artigos/baterias-em-geral/packs-de-baterias/protecao-de-packs-de-baterias-placas-bmspcm-e-balanceamento)
