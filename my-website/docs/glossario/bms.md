@@ -13,7 +13,6 @@ Em diversas aplicações é útil fazer associações de baterias quer em parale
 
 Para reduzir esse efeito e prolongar a vida útil da bateria, deve ser desenvolvido um mecanismo eficaz de balanceamento de células que mantenha os níveis de capacidade das células individuais em uma bateria o mais próximo possível. 
 
-
 ## O que é o BMS?
 ![BMS1](img/docs/glossario/BMS/BMS1.JPG)
 
@@ -22,7 +21,6 @@ Para reduzir esse efeito e prolongar a vida útil da bateria, deve ser desenvolv
 É um sistema que faz a gestão energética das baterias, seu objetivo é garantir a saúde de cada célula, garantindo que estas carreguem e descarreguem na mesma medida.
 
 Seu objetivo é:
-
 - Monitorar o estado de carga e estado de saúde das baterias;
 - Fazer a equalização de carga das baterias;
 - Monitorar os parâmetros (tensão, corrente e temperatura) destas. 
@@ -79,7 +77,6 @@ Possíveis aproximações para determinação do Estado de Carga:
 
 Exemplo retirado da referência [[3]](http://tede.unioeste.br/handle/tede/5113#preview-link0).
 
-
 ## Métodos de Balanceamento de Cargas
 Os principais métodos de balanceamento de células podem ser separados em três tipos: 
 - Dissipativo;
@@ -91,19 +88,15 @@ Os métodos dissipativos possuem baixa eficiência, pois utilizam-se elementos r
 O método de balanceamento de cargas por chaveamento consiste em fazer uso de FET'sou relés como se fossem chaves liga-desliga, que podem desviar parte da corrente de cada célula, tanto na carga como na descarga.
 
 ## Método de Balancemento de Cargas com o uso de relés
-
 ![BMS3](img/docs/glossario/BMS/BMS3.JPG)
 
 Exemplo retirado da referência [[3]](http://tede.unioeste.br/handle/tede/5113#preview-link0).
 
 Os relés normalmente fechados (NF), conectados nos polos positivo (relé C+) e negativo (relé C-) da célula, estariam sendo controlados pelo BMS. Caso alguma condição anormal durante a descarga fosse identificada, os relés C+ e C- mudariam sua condição para NA.
-
 Se o relé Dsv for também controlado pelo BMS, é possível, isolar uma célula durante o processo de descarga, enquanto o sistema continua fornecendo energia à carga em questão, com a tensão do barramento de saída estabilizada por meio de um conversor CC/CC. Esta situação poderia ser útil em caso de uma célula do arranjo em série alcançar sua tensão de corte inferior, enquanto as outras ainda podem ser descarregadas.
-
 Para balancear as células sem a necessidade de um circuito externo de dissipação, ou então de conversores para controlar o fluxo de energia entre células, os relés Crg+ e Crg- podem carregar o arranjo de células em série modificando para um arranjo em paralelo. Para isso, os relés C+, C-, Dsv estariam abertos, e o processo de carregamento teria de seguir o perfil de tensão constante com corrente máxima limitada pela fonte CC. 
 
 Resumo:
-
 - __Durante carga:__ os relés Crg+ e Crg- fechados e relés C+, C-, Dsv estariam abertos
 - __Durante descarga:__ relés C+ e C- fechados, caso uma célula atinja a tensão de corte inferior, relé Dsv seria fechado
 - __Em caso de anormalidade no sistema:__ relés C+ e C- abertos
@@ -116,7 +109,6 @@ Exemplo retirado da referência [[3]](http://tede.unioeste.br/handle/tede/5113#p
 O circuito de controle responsável pelo acionamento do relé é composto por um optoacoplador 4N25, para isolação do circuito de potência, com led indicando visualmente o acionamento. Para não usar as portas do microcontrolador como fonte de energia para acionar o relé, foram utilizados transistores NPN BC547, deste modo as portas eram usadas apenas como sinalização para o funcionamento como chave do transistor. Para proteção do transistor foi utilizado o diodo 1N4148 em paralelo aos pinos da bobina do relé, com polaridade invertida.
 
 ## Desenvolvimento do Software
-
 Para o BMS é preciso desenvolver um software que monitore constantemente o Estado de Carga e Estado de Saúde do sistema e parâmetros limites (como tensão mínima, tensão máxima e temperatura). Esse circuito será responsável por garantir o bom funcionamento do BMS, agindo no balancemaneto de cargas e evitando o funcionamento do sistema em condições fora das ideais. Abaixo encontra-se um exemplo de algoritmo para o software do BMS.  
 
 ![BMS5](img/docs/glossario/BMS/BMS5.JPG)
