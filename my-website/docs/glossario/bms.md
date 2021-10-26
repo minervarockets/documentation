@@ -31,7 +31,16 @@ __Inputs:__  valor da tensão de cada célula, tensão do conjunto de baterias, 
 
 __Outputs:__ estado de carga(State of Charge), estado de saúde (State of Health)
 
-### Proteção
+## Porque usar o BMS
+- As células perdem naturalmente o seu balanceamento (ou seja, terão estados diferentes de carga e tensão) após alguns ciclos de carga.
+- Realizando-se ensaios em diferentes packs de baterias Li-Ion com diferentes níveis de desbalanceamento de células conclui-se que quanto maior for o desbalanceamento das células num pack, maior será a perda de capacidade após alguns ciclos de carga e descarga.
+
+![BMS6](img/docs/glossario/BMS/BMS6.JPG)
+
+- Se durante o descarregamento uma bateria atingir níveis de tensão abaixo da tensão de corte mínima, isso pode resultar em danos a bateria e diminuição de sua vida útil.Sempre que a primeira célula atinge a tensão mínima de corte, a placa BMS vai cortar o circuito de descarga e interromper a descarga da bateria. Isto protege as células da bateria de serem descarregadas além do mínimo o que produziria danos irreparáveis. A desconexão na descarga impede que as células mais fortes empurrem a célula mais fraca para polaridade inversa.
+- O circuito de proteção também protege a bateria de corrente de carga excessiva.Passar qualquer quantidade de tempo acima da tensão máxima causará danos irreparáveis para as células
+- O desbalanceamento de células é também uma condição degenerativa. Como as células tornam-se desequilibradas, eles suportam uma quantidade desproporcional da carga, que faz com que elas se tornem mais desequilibradas até que a bateria se destrói.
+
 O BMS protege as baterias, evitando:
 - A sobre corrente;
 - A sobre tensão (durante o carregamento);
